@@ -8,10 +8,6 @@
 
 <br />
 
----
-
-<br />
-
 ## caTTo는
 
 -  문제 : [프로그래머스 과제관 프론트엔드 고양이 사진첩 어플리케이션](https://programmers.co.kr/skill_check_assignments/100)
