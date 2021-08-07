@@ -21,7 +21,7 @@ export default class Error {
 
       const img = document.createElement("img");
       img.className = "error_image";
-      img.src = "/src/assets/error.jpeg";
+      img.src = "src/assets/error.jpeg";
 
       const statusCode = document.createElement("p");
       statusCode.className = "status_code";

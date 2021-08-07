@@ -1,7 +1,7 @@
 export default class DetailModal {
    constructor({ $target }) {
       this.src = "";
-      this.basic_src = "https://www.naver.com"; // 이미지 불러올 api
+      this.basic_src = ""; // 이미지 불러올 api
       this.section = document.createElement("div");
       this.section.className = "detail_modal";
       this.section.classList.add("hidden");
@@ -22,8 +22,9 @@ export default class DetailModal {
    }
 
    render() {
-      //   this.img.src = this.basic_src + this.src; // api 없음
-      this.img.src = "/src/assets/sample1.jpeg";
+      console.log(this.src);
+      // this.img.src = this.basic_src + this.src; // api 없음
+      this.img.src = "src/assets/sample1.jpeg";
 
       this.box.appendChild(this.img);
    }

@@ -7,7 +7,7 @@ export default class File {
       this.file.dataset.fileName = data.name;
       this.file.dataset.back = data.back;
       this.file_image = document.createElement("img");
-      this.file_image.src = data.back ? "/src/assets/back.jpg" : data.filePath === null ? "/src/assets/folder.jpg" : "/src/assets/file.jpg";
+      this.file_image.src = data.back ? "src/assets/back.jpg" : data.filePath === null ? "src/assets/folder.jpg" : "src/assets/file.jpg";
       this.file_title = document.createElement("span");
       this.file_title.innerText = data.name;
 
